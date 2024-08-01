@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --text-color-light: #000000;
+  --background-color-light: #ffffff;
+  
+  --text-color-dark: #ffffff;
+  --background-color-dark: #000000;
+  
+  --border-color: #000000;
+}
+
+* {
+  transition: background-color 0.3s, color 0.3s;
+}
+body {
+  @apply font-source-code;
+}
+
+body.light-mode {
+  --text-color: var(--text-color-light);
+  --background-color: var(--background-color-light);
+}
+
+body.dark-mode {
+  --text-color: var(--text-color-dark);
+  --background-color: var(--background-color-dark);
+}
+
+.text-primary {
+  color: var(--text-color);
+}
+
+.bg-primary {
+  background-color: var(--background-color);
+}
+
+.border-primary {
+  border-color: var(--border-color);
+}
+
+
+.image-3d {
+    perspective: 1000px;
+}
+  
+.image-3d img {
+    transition: transform 0.3s ease;
+}
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+.fade-in-1 {
+  animation-delay: 0.8s;
+}
+
+.fade-in-2 {
+  animation-delay: 1s;
+}
