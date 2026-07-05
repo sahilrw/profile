@@ -1,9 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from "./pages/Header";
 import LandingPage from "./pages/LandingPage";
 import Projects from "./pages/Projects";
 import Blogs from "./pages/Blogs";
+import ErrorPage from "./pages/ErrorPage";
 import Footer from "./pages/Footer";
 import { ThemeProvider, useTheme } from './assets/ThemeContext';
 
@@ -16,8 +17,8 @@ const AppContent = () => {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/blogs" element={<Blogs />} />
-        {/* <Route path="*" element={<ErrorPage />} /> */}
+        <Route path="/writing" element={<Blogs />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />
     </div>

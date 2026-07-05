@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         'source-code': ['"Source Code Pro"', 'monospace'],
       },
+      colors: {
+        accent: '#6366f1',
+      },
     },
   },
   plugins: [],

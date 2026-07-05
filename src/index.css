@@ -14,7 +14,7 @@
 }
 
 * {
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.15s, color 0.15s, border-color 0.15s;
 }
 body {
   @apply font-source-code;
@@ -23,11 +23,13 @@ body {
 body.light-mode {
   --text-color: var(--text-color-light);
   --background-color: var(--background-color-light);
+  --border-color: #000000;
 }
 
 body.dark-mode {
   --text-color: var(--text-color-dark);
   --background-color: var(--background-color-dark);
+  --border-color: #ffffff;
 }
 
 .text-primary {

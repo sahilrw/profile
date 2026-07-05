@@ -29,7 +29,7 @@ const Blogs = () => {
     <div
       className="container min-h-screen max-w-3xl mx-auto max-h-fit p-4 sm:p-6 md:p-8 rounded border-2 border-primary text-primary bg-primary opacity-100"
     >
-      <span className='text-lg md:text-2xl font-semibold md:font-bold'>WRITING</span>
+      <span className='text-lg md:text-2xl font-semibold md:font-bold'><span className='text-accent'>&gt;</span> WRITING</span>
       <div className='flex flex-col gap-6 mt-4'>
         {posts.map((post, i) => (
           <div key={i} className='flex flex-col gap-3'>

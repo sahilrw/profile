@@ -30,12 +30,16 @@ const Intro = () => {
                 </div>
               </div>
 
-              <div className='flex flex-wrap justify-center sm:justify-start gap-x-5 gap-y-1 text-sm md:text-base'>
-                <a href="https://github.com/sahilrw" target="_blank" rel="noopener noreferrer" className='underline hover:opacity-70'>GitHub</a>
-                <a href="https://x.com/_sahil_r" target="_blank" rel="noopener noreferrer" className='underline hover:opacity-70'>X</a>
-                <a href="https://linkedin.com/in/sahilrw" target="_blank" rel="noopener noreferrer" className='underline hover:opacity-70'>LinkedIn</a>
-                <a href="mailto:sahilrw000@gmail.com" className='underline hover:opacity-70'>Email</a>
-                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className='underline hover:opacity-70'>Resume</a>
+              <div className='flex flex-wrap items-center justify-center sm:justify-start gap-x-5 gap-y-2 text-sm md:text-base'>
+                <a href="https://github.com/sahilrw" target="_blank" rel="noopener noreferrer" className='underline hover:text-accent transition-colors'>GitHub</a>
+                <a href="https://x.com/_sahil_r" target="_blank" rel="noopener noreferrer" className='underline hover:text-accent transition-colors'>X</a>
+                <a href="https://linkedin.com/in/sahilrw" target="_blank" rel="noopener noreferrer" className='underline hover:text-accent transition-colors'>LinkedIn</a>
+                <a href="mailto:sahilrw000@gmail.com" className='underline hover:text-accent transition-colors'>Email</a>
+                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className='rounded border border-accent text-accent px-3 py-0.5 hover:bg-accent hover:text-white transition-colors'>Resume</a>
+              </div>
+
+              <div className='text-sm'>
+                <span className='text-accent'>&gt;</span> <span className='opacity-70'>currently exploring agent evaluation &amp; red-teaming</span>
               </div>
             </div>
           </div>

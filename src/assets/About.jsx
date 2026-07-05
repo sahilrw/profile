@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className='text-xs sm:text-base md:text-lg'>
       <div className='fade-in fade-in-2'>
-        <span className='text-lg md:text-2xl font-semibold md:font-bold'>ABOUT</span><br />
+        <span className='text-lg md:text-2xl font-semibold md:font-bold'><span className='text-accent'>&gt;</span> ABOUT</span><br />
         <span className='text-base md:text-xl italic'>Hi, I'm Sahil</span><br />
         <div className='grid gap-2 h-fit'>
           <p>
@@ -21,13 +21,13 @@ const About = () => {
         }`}/>
       </div>
       <div>
-      <span className='text-lg md:text-2xl font-semibold md:font-bold'>WHAT I WORK ON</span><br />
-        <div className='grid gap-2 h-fit'>
-          <li>LLM systems, RAG pipelines, and agents in Python</li>
-          <li>Rigorous evaluation: ablations and benchmarks to measure what actually helps</li>
-          <li>Shipping end-to-end, from retrieval and prompts to a working UI</li>
-          <li>Reading research and turning it into working code</li>
-        </div>
+      <span className='text-lg md:text-2xl font-semibold md:font-bold'><span className='text-accent'>&gt;</span> WHAT I WORK ON</span><br />
+        <ul className='grid gap-2 h-fit list-none pl-3 sm:pl-5 mt-2'>
+          <li className='flex gap-2'><span className='text-accent shrink-0'>&ndash;</span><span>LLM systems, RAG pipelines, and agents in Python</span></li>
+          <li className='flex gap-2'><span className='text-accent shrink-0'>&ndash;</span><span>Rigorous evaluation: ablations and benchmarks to measure what actually helps</span></li>
+          <li className='flex gap-2'><span className='text-accent shrink-0'>&ndash;</span><span>Shipping end-to-end, from retrieval and prompts to a working UI</span></li>
+          <li className='flex gap-2'><span className='text-accent shrink-0'>&ndash;</span><span>Reading research and turning it into working code</span></li>
+        </ul>
       </div>
     </div>
   )
