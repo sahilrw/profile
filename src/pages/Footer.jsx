@@ -23,7 +23,7 @@ const Footer = () => {
         </a>
       </span>
       <span className="px-4">
-        <a href="mailto:sahilrw05@gmail.com" 
+        <a href="mailto:sahilrw000@gmail.com"
             target="_blank"
             rel="noopener noreferrer">Email
         </a>

@@ -10,15 +10,10 @@ const About = () => {
         <span className='text-base md:text-xl italic'>Hi, I'm Sahil</span><br />
         <div className='grid gap-2 h-fit'>
           <p>
-            I'm a web dev. Besides my expertise in React and TailwindCSS, I have a strong foundation in HTML, CSS, and JavaScript. I have leveraged these technical skills to work on freelance projects, where I have acquired the ability to excel in a team environment. 
+            I'm an AI/ML engineer. I build LLM systems, RAG pipelines, and agents in Python, and I care as much about measuring them as building them. I run ablations and benchmarks to find what actually works, and I document what I learn along the way.
           </p>
           <p>
-            Now, I am delving into the field of AIML. I have built several projects using Python. Additionally, I have learned to train basic models, based on the knowledge I have gained so far.
-          </p>
-          <p>
-            For a large part of the day, I am engrossed in learning and building cool stuff on my computer. Apart from that, I spend lot of time playing chess, which helps me maintain a cool mind in tense situations and think strategically. Feel free to challenge me to a match via 
-              <a href="https://x.com/_sahil_r" className='underline mx-2.5'>X(Twitter)</a>
-          dms.
+            I'm currently a full-stack engineering intern at a startup, where over the past year I helped build and ship a cross-platform retail-audit app across iOS, Android, and web, and wrote end-to-end test suites wired into CI. With my freelance frontend work (React, TailwindCSS, JavaScript) on top of that, I can ship real end-to-end products, not just notebooks.
           </p>
         </div>
         <hr className={`border-t-2 my-6 ${
@@ -26,12 +21,12 @@ const About = () => {
         }`}/>
       </div>
       <div>
-      <span className='text-lg md:text-2xl font-semibold md:font-bold'>WHAT I PLAN TO DO</span><br />
+      <span className='text-lg md:text-2xl font-semibold md:font-bold'>WHAT I WORK ON</span><br />
         <div className='grid gap-2 h-fit'>
-          <li>study ML in depth</li>   
-          <li>build cool projects</li>
-          <li>read research papers</li>   
-          <li>document my progress</li> 
+          <li>LLM systems, RAG pipelines, and agents in Python</li>
+          <li>Rigorous evaluation: ablations and benchmarks to measure what actually helps</li>
+          <li>Shipping end-to-end, from retrieval and prompts to a working UI</li>
+          <li>Reading research and turning it into working code</li>
         </div>
       </div>
     </div>
